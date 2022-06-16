@@ -1,0 +1,35 @@
+{
+  "name": "opsgenie-grafana",
+  "version": "1.0.0",
+  "description": "OpsGenie Grafana Datasource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js",
+    "debug": "node --nolazy --inspect=9229 -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcjcooke/opsgenie-grafana-team-metrics-datasource.git"
+  },
+  "keywords": [
+    "OpsGenie",
+    "Grafana"
+  ],
+  "author": "Ray Cooke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcjcooke/opsgenie-grafana-team-metrics-datasource/issues"
+  },
+  "homepage": "https://github.com/rcjcooke/opsgenie-grafana-team-metrics-datasource#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "opsgenie-sdk": "^0.5.1",
+    "passport": "^0.6.0",
+    "passport-anonymous": "^1.0.1",
+    "passport-http": "^0.3.0"
+  }
+}
